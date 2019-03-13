@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+</head>
+<body>
+
+<h2>My Favorite Country</h2>
+<h4>My favourite country is Japan. It is in Asia. Its capital is Tokyo. There are about 126 millions people living in Japan. The weather there is similar to that in Hong Kong. But, in Japan, the typhoons are mainly in autumn. Besides, it would be snowing in winter there.</h4>
+
+<ul>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About Me</a>
+    <div class="dropdown-content">
+      <a href="Myself.html">Myself</a>
+      <a href="Photo.html">My Photo</a>
+    </div>
+  </li>
+    <li><a href="School.html">My school</a></li>
+  <li><a href="Country.html">Country</a></li>
+    </div>
+  </li>
+</ul>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="p1.png">
+      <img src="p1.png" alt="Tokyo" width="600" height="400">
+    </a>
+    <div class="desc"><header>Tokyo Power</header></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="p2.png">
+      <img src="p2.png" alt="Osaka" width="600" height="400">
+    </a>
+    <div class="desc">Osaka Castle</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="p3.png">
+      <img src="p3.png" alt="Kyoto" width="600" height="400">
+    </a>
+    <div class="desc">Kiyomizu Temple</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="p4.png">
+      <img src="p4.png" alt="Tokyo" width="600" height="400">
+    </a>
+    <div class="desc">Tokyo Power 2</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>You can find many interesting things in Japan. I think the most interesting thing is Sado, the Way of Tea. It is a means of training concentration of spirit and of learning manners. For the interesting food in Japan, it should be Sushi. Sushi is a traditional Japanese food made with rice and vinegar. I like it very much. On the other hand, one of the special scenery in Japan is hot spring. Generally, people think that the water in the springs is hot. However, in Japan, there are some springs of cold water. In Hong Kong, many people like traveling in Japan. It is because there are various tourist spots. In the Tokyo Disneyland, there is the  "Disney's Dreams on Parade". It is based on the theme of dreams and features of the Disney characters, Mickey Mouse. After hearing my introduction of Japan, do you want to go to Japan too?</p>
+</div>
+
+</body>
+</html>
